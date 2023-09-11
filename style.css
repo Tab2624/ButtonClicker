@@ -1,0 +1,96 @@
+/* CSS Rest */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.navBar{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+    height: 65px;
+    padding: 0px 4%;
+}
+.space{
+    margin-left: 50px;
+}
+.evenOut{
+    margin: 5px;
+}
+
+#navBtn{
+    background-color:#2A77E3;
+    color: white;
+    border-color: black;
+    padding: 2px 10px;
+}
+
+.navBar input{
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15%;
+    gap: 5%;
+}
+
+.col-1{
+    flex: 2;
+}
+
+.ninjaBox{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 450px;
+    height: 180px;
+    align-items: center;
+}
+
+.boxInfo {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link{
+    color: blue;
+}
+
+
+.btn{
+    background-color:#FFD966 ;
+    color: black;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-color: black;
+    box-shadow: 5px 5px 0px;
+}
+
+
+.dojonary{
+    margin: 20px 0px;
+    border: 2px solid black;
+    height: 150px;
+    flex: 1;
+}
+
+.dojoBox{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#definitionBtn{
+    margin-top: 20px;
+    background-color: #93C47D;
+    color: black;
+    padding: 5px 35px;
+    border-color: black;
+    box-shadow: 5px 5px 0px;
+}
